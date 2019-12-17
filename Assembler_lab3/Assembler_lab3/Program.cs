@@ -10,7 +10,9 @@ namespace Assembler_lab3
     {
         static void Main(string[] args)
         {
-
+            const string fileTxt = @"C:\commands.txt";
+            Parsing p = new Parsing();
+            p.ReadTxtFile(fileTxt);
         }
     }
 }
